@@ -18,13 +18,14 @@ class _MySplashState extends State<MySplash> {
         style: TextStyle(
           fontWeight: FontWeight.bold,
           fontSize: 30,
-          color: Color(0xFFE99600),
+          color: Colors.black,
+
         ),
       ),
 image: Image.asset('assets/logo1.png'),
 backgroundColor: Colors.amber,
 photoSize: 150,
-loaderColor: Color(0xFFEEDA28) ,
+loaderColor: Colors.green ,
     );
   }
 }
